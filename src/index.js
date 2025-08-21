@@ -11,4 +11,4 @@ data.forEach((ele)=>{
     total += Number(num)
 })
 
-fs.writeFileSync("output.txt",total)
+fs.writeFileSync("output.txt",String(total))
